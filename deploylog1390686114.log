@@ -1,0 +1,72 @@
+begin log file
+---------------------
+[1390686114]checking environemnt pre-clean deploy
+[1390686114]CPU is at an acceptable level
+[1390686114]There is sufficient memory available
+[1390686114]IO is at an acceptable level
+[1390686114]Swap rate is acceptable
+[1390686114]Context Switching is at an acceptable level
+beginng full clean deployment
+[1390686114]stopping apache and mysql
+[1390686121]uninstalling apache
+[1390686124]installing apache
+[1390686128]uninstalling mysql
+[1390686131]installing mysql
+[1390686135]apache installed to /usr/sbin/apache2
+[1390686135]MySql installed to /usr/bin/mysql
+[1390686135]Cloning from github
+[1390686138]Adding to directories
+[1390686138]Starting services
+[1390686141]Starting log/monitoring function
+[1390686141]Apache process is Running
+[1390686141]Apache is Listening
+[1390686141]Remote Apache TCP port is up
+[1390686141]Mysql process is Running
+[1390686142]Mysql is Listening
+[1390686142]Remote Mysql TCP port is up
+[1390686142]Checking for quality control functions
+[1390686142]tidy exists in /usr/bin/tidy
+[1390686142]linkchecker exists in /usr/bin/linkchecker
+[1390686144]New content pulled from server
+[1390686144]There are 2 file(s) to be added to the site
+[1390686144]HTML files have been tidied, see tidylog for details
+[1390686144]Build conditions satisfied, moving to integration phase
+[1390686146]directory differences are
+Only in /tmp/sandbox_12861/integrate/thesite: accept_form.pl
+Only in /tmp/sandbox_12861/integrate/webpackage: deploylog1390686114.log
+Only in /tmp/sandbox_12861/integrate/thesite: form.html
+Only in /tmp/sandbox_12861/integrate/thesite: .git
+Only in /tmp/sandbox_12861/integrate/thesite: hello_world.pl
+Only in /tmp/sandbox_12861/integrate/thesite: index.html
+Only in /tmp/sandbox_12861/integrate/webpackage: newpage.html
+Only in /tmp/sandbox_12861/integrate/webpackage: page2.html
+Only in /tmp/sandbox_12861/integrate/thesite: testdb.pl
+[1390686146]checking site for broken links
+1 error(s) found while checking links. See /home/testuser/linklog1390686146.log for details
+[1390686150]apache2 exists in /usr/sbin/apache2
+[1390686150]mysql exists in /usr/bin/mysql
+[1390686150]perl exists in /usr/bin/perl
+[1390686150]git exists in /usr/bin/git
+[1390686150]Integration stage completed moving to test phase
+[1390686150]Beggining unit tests
+[1390686150]Unit testing apache
+Apache process is Running. Test passed
+[1390686150]Stopping Apache
+Apache is not running. Test passed
+[1390686152]Starting apache again
+[1390686152]Unit testing mysql
+Mysql process is Running. Test passed
+[1390686152]Stopping Mysql
+Mysql is not running. Test passed
+[1390686154]Starting mysql again
+[1390686156]Unit tests complete
+[1390686156]Beginning final environment acceptance tests
+[1390686156]checking environemnt pre-clean deploy
+[1390686156]CPU is at an acceptable level
+[1390686157]There is sufficient memory available
+[1390686157]IO is at an acceptable level
+[1390686157]Swap rate is acceptable
+[1390686157]Context Switching is at an acceptable level
+[1390686157]Environment checks complete, results shown above
+[1390686157]Cannot deploy due to 1 error(s) found during build-integrate-test phase. See /home/testuser/deploylog1390686114.log for logged errors
+[1390686157]Site remains the same. Not pushing to github or production

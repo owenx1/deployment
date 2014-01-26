@@ -1,0 +1,79 @@
+begin log file of links
+-----------------------
+LinkChecker 7.4              Copyright (C) 2000-2011 Bastian Kleineidam
+LinkChecker comes with ABSOLUTELY NO WARRANTY!
+This is free software, and you are welcome to redistribute it
+under certain conditions. Look at the file `LICENSE' within this
+distribution.
+Get the newest version at http://linkchecker.sourceforge.net/
+Write comments and bugs to http://sourceforge.net/projects/linkchecker/support
+
+Start checking at 2014-01-25 21:42:27+001
+
+URL        `/cgi-bin/accept_form.pl'
+Parent URL file:///tmp/sandbox_12861/integrate/webpackage/form.html, line 2, col 1
+Real URL   file:///cgi-bin/accept_form.pl
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/cgi-bin/accept_form.pl'>
+
+Statistics:
+Content types: 0 image, 2 text, 0 video, 0 audio, 0 application, 0 mail and 0 other.
+URL lengths: min=30, max=56, avg=43.
+
+That's it. 2 links checked. 0 warnings found. 1 error found.
+Stopped checking at 2014-01-25 21:42:27+001 (0.05 seconds)
+LinkChecker 7.4              Copyright (C) 2000-2011 Bastian Kleineidam
+LinkChecker comes with ABSOLUTELY NO WARRANTY!
+This is free software, and you are welcome to redistribute it
+under certain conditions. Look at the file `LICENSE' within this
+distribution.
+Get the newest version at http://linkchecker.sourceforge.net/
+Write comments and bugs to http://sourceforge.net/projects/linkchecker/support
+
+Start checking at 2014-01-25 21:42:27+001
+
+Statistics:
+Content types: 0 image, 1 text, 0 video, 0 audio, 0 application, 0 mail and 0 other.
+URL lengths: min=57, max=57, avg=57.
+
+That's it. 1 link checked. 0 warnings found. 0 errors found.
+Stopped checking at 2014-01-25 21:42:27+001 (0.03 seconds)
+LinkChecker 7.4              Copyright (C) 2000-2011 Bastian Kleineidam
+LinkChecker comes with ABSOLUTELY NO WARRANTY!
+This is free software, and you are welcome to redistribute it
+under certain conditions. Look at the file `LICENSE' within this
+distribution.
+Get the newest version at http://linkchecker.sourceforge.net/
+Write comments and bugs to http://sourceforge.net/projects/linkchecker/support
+
+Start checking at 2014-01-25 21:42:28+001
+
+URL        `anotherpg.html'
+Name       `I am not'
+Parent URL file:///tmp/sandbox_12861/integrate/webpackage/newpage.html, line 11, col 48
+Real URL   file:///tmp/sandbox_12861/integrate/webpackage/anotherpg.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/tmp/sandbox_12861/integrate/webpackage/anotherpg.html'>
+
+Statistics:
+Content types: 0 image, 3 text, 0 video, 0 audio, 0 application, 0 mail and 0 other.
+URL lengths: min=57, max=61, avg=59.
+
+That's it. 3 links checked. 0 warnings found. 1 error found.
+Stopped checking at 2014-01-25 21:42:28+001 (0.05 seconds)
+LinkChecker 7.4              Copyright (C) 2000-2011 Bastian Kleineidam
+LinkChecker comes with ABSOLUTELY NO WARRANTY!
+This is free software, and you are welcome to redistribute it
+under certain conditions. Look at the file `LICENSE' within this
+distribution.
+Get the newest version at http://linkchecker.sourceforge.net/
+Write comments and bugs to http://sourceforge.net/projects/linkchecker/support
+
+Start checking at 2014-01-25 21:42:28+001
+
+Statistics:
+Content types: 0 image, 1 text, 0 video, 0 audio, 0 application, 0 mail and 0 other.
+URL lengths: min=57, max=57, avg=57.
+
+That's it. 1 link checked. 0 warnings found. 0 errors found.
+Stopped checking at 2014-01-25 21:42:28+001 (0.03 seconds)

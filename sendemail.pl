@@ -1,5 +1,6 @@
 #!/usr/bin/perl
-# fslyne 2013
+# obyrne 2014
+#WRITTEN BY OBYRNE FOR DEPLOYENT AND MAINTAINED ON OWENX1 GITHUB. SHARED VERSION ON MOODLE SO MANY VARIATIONS MAY EXIST
 #use Net::SMTP::TLS;
 
 #my $subj="Mailer message - ".convdatetimenow();
@@ -38,7 +39,8 @@ foreach my $a(@ARGV) {
       {   mailer      => 'Gmail',
           mailer_args => [
               username => 'owentest365@gmail.com',
-              password => 'x13117343',
+              #for examiner use only: password is student's student no. preceded by x, e.g. x********
+              password => '***********',
           ]
       }
   );
